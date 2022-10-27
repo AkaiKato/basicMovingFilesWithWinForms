@@ -1,0 +1,11 @@
+C:\Users\rail2\source\repos\lab3HM\lab3HM\bin\Debug\lab3HM.exe.config
+C:\Users\rail2\source\repos\lab3HM\lab3HM\bin\Debug\lab3HM.exe
+C:\Users\rail2\source\repos\lab3HM\lab3HM\bin\Debug\lab3HM.pdb
+C:\Users\rail2\source\repos\lab3HM\lab3HM\obj\Debug\lab3HM.csproj.AssemblyReference.cache
+C:\Users\rail2\source\repos\lab3HM\lab3HM\obj\Debug\lab3HM.csproj.SuggestedBindingRedirects.cache
+C:\Users\rail2\source\repos\lab3HM\lab3HM\obj\Debug\lab3HM.Form1.resources
+C:\Users\rail2\source\repos\lab3HM\lab3HM\obj\Debug\lab3HM.Properties.Resources.resources
+C:\Users\rail2\source\repos\lab3HM\lab3HM\obj\Debug\lab3HM.csproj.GenerateResource.cache
+C:\Users\rail2\source\repos\lab3HM\lab3HM\obj\Debug\lab3HM.csproj.CoreCompileInputs.cache
+C:\Users\rail2\source\repos\lab3HM\lab3HM\obj\Debug\lab3HM.exe
+C:\Users\rail2\source\repos\lab3HM\lab3HM\obj\Debug\lab3HM.pdb
