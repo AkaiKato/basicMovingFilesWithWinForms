@@ -1,13 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace lab3HM
@@ -160,6 +153,19 @@ namespace lab3HM
                 toTextBox.Text = toDirName;
                 fillListBox(toListBox, toTextBox);
             }
+        }
+
+        private void swapPathButton_Click(object sender, EventArgs e)
+        {
+            string str = fromDirName;
+            fromDirName = toDirName;
+            toDirName = str;
+
+            fromTextBox.Text = fromDirName;
+            toTextBox.Text = toDirName;
+
+            fillListBox(fromListBox, fromTextBox);
+            fillListBox(toListBox, toTextBox);
         }
     }
 }

@@ -36,6 +36,7 @@
             this.backToButton = new System.Windows.Forms.Button();
             this.fromTextBox = new System.Windows.Forms.TextBox();
             this.toTextBox = new System.Windows.Forms.TextBox();
+            this.swapPathButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // fromListBox
@@ -62,7 +63,7 @@
             this.moveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.moveButton.Location = new System.Drawing.Point(12, 277);
             this.moveButton.Name = "moveButton";
-            this.moveButton.Size = new System.Drawing.Size(1006, 38);
+            this.moveButton.Size = new System.Drawing.Size(961, 38);
             this.moveButton.TabIndex = 2;
             this.moveButton.Text = "↓";
             this.moveButton.UseVisualStyleBackColor = true;
@@ -106,11 +107,22 @@
             this.toTextBox.TabIndex = 6;
             this.toTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.toTextBox_KeyPress);
             // 
+            // swapPathButton
+            // 
+            this.swapPathButton.Image = ((System.Drawing.Image)(resources.GetObject("swapPathButton.Image")));
+            this.swapPathButton.Location = new System.Drawing.Point(979, 277);
+            this.swapPathButton.Name = "swapPathButton";
+            this.swapPathButton.Size = new System.Drawing.Size(39, 38);
+            this.swapPathButton.TabIndex = 7;
+            this.swapPathButton.UseVisualStyleBackColor = true;
+            this.swapPathButton.Click += new System.EventHandler(this.swapPathButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1030, 595);
+            this.Controls.Add(this.swapPathButton);
             this.Controls.Add(this.toTextBox);
             this.Controls.Add(this.fromTextBox);
             this.Controls.Add(this.backToButton);
@@ -135,6 +147,7 @@
         private System.Windows.Forms.Button backToButton;
         private System.Windows.Forms.TextBox fromTextBox;
         private System.Windows.Forms.TextBox toTextBox;
+        private System.Windows.Forms.Button swapPathButton;
     }
 }
 
