@@ -91,13 +91,19 @@ namespace lab3HM
         private void fromTextBox_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == (char)Keys.Enter)
+            {
                 checkRightPath(fromListBox, fromTextBox, true);
+                e.Handled = true;
+            }
         }
 
         private void toTextBox_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == (char)Keys.Enter)
+            {
                 checkRightPath(toListBox, toTextBox, false);
+                e.Handled = true;
+            }
         }
 
         private string[] getNames(string[] strings)
